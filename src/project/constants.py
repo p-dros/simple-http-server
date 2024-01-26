@@ -1,0 +1,2 @@
+BLANK_LINE = b"\r\n"
+HTTP_VERSION = "1.1"
