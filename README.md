@@ -1,4 +1,4 @@
-# Project Title
+# Minimalistic HTTP Server
 
 Python implementation of a basic HTTP server created for educational purposes as part of a university project.
 
