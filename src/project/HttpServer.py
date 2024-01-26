@@ -25,8 +25,6 @@ class HTTPServer(TCPServer):
 
         request = HTTPRequest(data)
 
-        print(vars(request))
-
         try:
             handler = getattr(self, "handle_%s" % request.method)
         except AttributeError:
